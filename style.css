@@ -1,0 +1,235 @@
+/* *{
+    background-color: beige;
+} */
+.navbutton{
+    padding-left: 17%;
+}
+.navvbar{
+    justify-content: center;
+    padding-left: 15%;
+    
+}
+.navbar-nav{
+    color: orange;
+}
+.img-fluid{
+    justify-content: right;
+    margin-left: 10%;
+}
+.lead{
+    padding-top: 30px;
+}
+#desktop-1{
+    background-image: url("images/Desktop\ -\ 1.png") ;
+}
+#desktop-2{
+    background-image: url("images/Desktop\ -\ 2.png");
+}
+.quest{
+    padding-top: 5em;
+    /* padding-left: 180px; */
+}
+
+.enqry{
+    padding-top: 60px;
+}
+
+.pargh1{
+    padding-top: 30px;
+}
+
+.pargh2{
+    padding-top: 20px;
+}
+.paid{
+    padding-top: 70px;
+}
+.pargh3{
+    padding-top: 30px;
+}
+.frame43{
+    margin-left: 5%;
+    height: 350px;
+    padding-top: 60px;
+    width: 450px;
+}
+.container-lg{
+    padding-bottom: 70px;
+    /* padding-top: 50px; */
+}
+#desktop-3{
+    background-image: url("images/Desktop\ -\ 4.png");
+}
+.question{
+    padding-top: 50px;
+}
+.faq{
+    padding-top: 20px;
+}
+.accordion{
+    padding-top: 50px;
+}
+#desktop-4{
+    background-image: url("images/Frame\ 70.png");
+}
+.meet{
+    padding-top: 10%;
+}
+.gplay{
+    padding-top: 10px;
+}
+.swift{
+    padding-left: 50px;
+}
+
+footer{
+    padding: 40px;
+}
+.about{
+    color:rgb(4, 4, 102);
+    font-size: x-large;
+    padding-top: 30px;
+}
+.inform{
+    padding-top: 30px;
+}
+.principle{
+    padding-top: 30px;  
+}
+ul{
+    padding: 20px;
+    
+}
+.artisan{
+    color:rgb(4, 4, 102);
+    font-size: x-large;
+    padding-top: 30px;
+}
+#body{
+    background-image: url("images/Desktop\ -\ 7.png");
+}
+.group{
+    text-align: right;
+}
+.content{
+    text-align: left;
+}
+.contnt{
+    /* width: fit-content; */
+    padding-right: 120px;
+}
+.sendbuttn{
+    padding: 40px;
+}
+.endpg{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 20px;
+    color: black;
+}
+.footpg{
+    text-decoration: none;
+    list-style-type: none;
+
+    color: black;
+    text-align: right;
+}
+.flx{
+    display: flex;
+    flex-direction: row;
+}
+.box2{
+    flex: 2;
+    text-align: right;
+}
+.serve{
+    padding: 50px;
+}
+.serve h4{
+    color: rgb(7, 7, 129);
+   
+}
+.dsktop2{
+    padding-right: 40px;
+}
+.quest1{
+    padding-top: 15px;
+}
+
+
+@media(max-width: 576px){ 
+    .flx{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* text-align: justify; */
+    }
+    .box1{
+        padding-left: 15px;
+    }
+    .box2{
+        
+        text-align: left;
+        padding-top: 30px;
+    }
+    .dwnpg{
+        align-items: center;
+    }
+    .enqry{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .enbox1{
+        flex: 3;
+        font-size: larger;
+        text-align: center;
+    }
+    .easy{
+        flex: 3;
+        font-size: larger;
+        /* text-align: center; */
+        padding-top: 30px;
+        margin-right: 0%;
+    }
+    .paid{
+        flex: 3;
+        font-size: larger;
+        text-align: center;
+    }
+    /* .servebox1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    } */
+    .servebox1{
+        display: grid;
+        grid-template-columns: 
+            "a a a a"
+            "b b b b"
+        ;
+    }
+  /* .service1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+  } */
+  .srvbox1{
+    grid-area: a;
+    align-items: center;
+    padding: 10px;
+  }
+  .srvbox2{
+    grid-area: b;
+    align-items: center;
+    padding: 10px;
+
+  }
+  .serve{
+    padding: 20px;
+  }
+
+}
