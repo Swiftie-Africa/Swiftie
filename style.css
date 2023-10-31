@@ -9,6 +9,10 @@
     padding-left: 15%;
     
 }
+.navbar-brand{
+    padding-top: 0;
+}
+
 .navbar-nav{
     color: orange;
 }
@@ -16,26 +20,41 @@
     justify-content: right;
     margin-left: 10%;
 }
+.gplay1{
+    width: 200px;
+}
 .lead{
     padding-top: 30px;
 }
+.ds1{
+    padding-left: 13px;
+}
 #desktop-1{
-    background-image: url("images/Desktop\ -\ 1.png") ;
+    padding-bottom: 8em;
 }
+
 #desktop-2{
-    background-image: url("images/Desktop\ -\ 2.png");
+    background-color: rgb(4, 4, 85);
 }
-.quest{
-    padding-top: 5em;
-    /* padding-left: 180px; */
-}
+
 
 .enqry{
     padding-top: 60px;
 }
+.enbox1{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.easy{
+    padding-top: 110px;
+}
+.paid{
+    padding-top: 8px;
+}
 
 .pargh1{
     padding-top: 30px;
+    padding-left: 40px;
 }
 
 .pargh2{
@@ -67,13 +86,16 @@
     padding-top: 20px;
 }
 .accordion{
-    padding-top: 50px;
+    padding-top: 30px;
+    
 }
+
+
 #desktop-4{
     background-image: url("images/Frame\ 70.png");
 }
 .meet{
-    padding-top: 10%;
+    padding-top: 6%;
 }
 .gplay{
     padding-top: 10px;
@@ -105,9 +127,7 @@ ul{
     font-size: x-large;
     padding-top: 30px;
 }
-#body{
-    background-image: url("images/Desktop\ -\ 7.png");
-}
+
 .group{
     text-align: right;
 }
@@ -150,7 +170,13 @@ ul{
    
 }
 .dsktop2{
-    padding-right: 40px;
+    width: 150px;
+    padding-left: 30px;
+    padding-top: 0;
+}
+.frame50{
+    width: 50px;
+    height: px;
 }
 .quest1{
     padding-top: 15px;
@@ -164,6 +190,12 @@ ul{
         /* align-items: center; */
         /* text-align: justify; */
     }
+    .ds1{
+        text-align: start;
+    }
+    .gplink{
+        text-align: left;
+    }
     .box1{
         padding-left: 15px;
     }
@@ -175,61 +207,95 @@ ul{
     .dwnpg{
         align-items: center;
     }
-    .enqry{
+    .newd1{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+    }
+    .newd2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .newd3{
+        display: flex;
+        flex-direction: column;
     }
     .enbox1{
-        flex: 3;
-        font-size: larger;
-        text-align: center;
+        text-align: start;
     }
     .easy{
-        flex: 3;
-        font-size: larger;
-        /* text-align: center; */
-        padding-top: 30px;
-        margin-right: 0%;
+       text-align: start;
+       padding-top: 10px;
+       padding-left: 45px;
     }
     .paid{
-        flex: 3;
-        font-size: larger;
-        text-align: center;
+        text-align: start;
+        padding-top: 10px;
+        padding-left: 45px;
     }
-    /* .servebox1{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 0;
-    } */
+    .pargh2{
+        text-align: start;
+        padding-left: 45px;
+    }
+    .pargh3{
+        text-align: start;
+        padding-left: 45px;
+    }
+   
     .servebox1{
-        display: grid;
-        grid-template-columns: 
-            "a a a a"
-            "b b b b"
-        ;
-    }
-  /* .service1{
         display: flex;
         flex-direction: column;
-        text-align: center;
-        padding: 0;
-  } */
-  .srvbox1{
-    grid-area: a;
-    align-items: center;
-    padding: 10px;
-  }
+    }
+    .servebox2{
+        display: flex;
+        flex-direction: column;
+    }
+    .servebox3{
+        display: flex;
+        flex-direction: column;
+    }
+    .servebox4{
+        display: flex;
+        flex-direction: column;
+    }
+    .servebox5{
+        display: flex;
+        flex-direction: column;
+    }
+    .servebox6{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+ 
+  
   .srvbox2{
-    grid-area: b;
-    align-items: center;
-    padding: 10px;
-
+    padding-top: 30px;
   }
-  .serve{
-    padding: 20px;
+  .srvbox4{
+    padding-top: 30px;
+  }
+  .srvbox6{
+    padding-top: 30px;
+  }
+  .srvbox8{
+    padding-top: 30px;
+  }
+  .srvbox10{
+    padding-top: 30px;
+  }
+  .srvbox12{
+    padding-top: 30px;
+  }
+  .usar{
+    display: flex;
+    flex-direction: column;
+  }
+  .usar1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .jswft{
+    padding-right: 10px;
   }
 
 }
